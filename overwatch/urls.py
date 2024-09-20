@@ -20,6 +20,7 @@ from rest_framework import routers
 
 from overwatch.overwatch_api import views
 
+#TODO: figure out how to make it so you can go to roles, or heroes, or map in url as well
 router = routers.DefaultRouter()
 router.register(r'hero', views.HeroViewSet)
 router.register(r'role', views.RoleViewSet)
