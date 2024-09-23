@@ -16,4 +16,5 @@ class RoleSerializer(serializers.HyperlinkedModelSerializer):
 class MapsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Maps
-        fields = ['Name', 'Description']
+        fields = ['Name', 'Description', 'Mode']
+
