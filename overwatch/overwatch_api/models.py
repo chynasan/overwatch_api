@@ -17,7 +17,6 @@ class Hero(models.Model):
     Description = models.CharField(max_length=500)
     Abilities = models.CharField(max_length=500)
     Health = models.IntegerField()
-    Birthday = models.DateField()
 
 #TODO: Update this to include a field that has preset selectable options for hybrid, control, etc as a type field
 #list for map choices
